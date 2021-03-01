@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="vieport" content="width=device-width, initial-scale=1">    <!--Ширина сайта будет примимать ширину деваса, с которого мы вошли на сайт -->
+    <!-- initial-scale - зум, у нас зум =1, т .е. сайт будет отобраться в обычном(стандартном) виде -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+
+    <!-- блок header (голова) -->
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">ACTIVE BOX</div>
+          <nav class="nav" id="nav">
+            <a class="nav__link" href="#" data-scroll="#Features">Features</a>
+            <a class="nav__link" href="#" data-scroll="#Works">Works</a>
+            <a class="nav__link" href="#" data-scroll="#teams">Our Teams</a>
+            <a class="nav__link" href="#" data-scroll="#reviews">Testimonials</a>
+            <a class="nav__link" href="#" data-scroll="#Downoloads">Downoloads</a>
+          </nav>
+          <!-- создание бургера при определнной ширине экрана -->
+          <button class="burger" type="button" id="navToggle">
+            <span class="burger__item">
+              Menu <!--Прописываем какое-либо слово , что бы элемент не оставался пустым--> 
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+
+
+    <!-- блок intro -->
+    <div class="intro" id="intro">
+      <div class="container">
+        <div class="inter__inner">
+          <h1 class="intro__title">
+            Lorem ipsum dolor sit amet<br />
+            consectetur adipisicing elit
+          </h1>
+          <p class="intro__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            quidem perferendis porro! Eos dolore ipsa iure impedit! Iure laborum
+            animi, libero, magnam sit repellendus eaque dicta fugiat provident
+            perspiciatis totam.
+          </p>
+          <a class ="inter__buttom" href="#">Lorem ipsum </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <!-- блок feacher -->
+    <div class="feacher">
+      <div class="container " id="Features">
+        <div class="feacher__inner">
+          <div class="feacher__item">
+            <img class="feacher__icon" src="img/лампочка.jpg" alt="">
+            <div class="feacher__title">Lorem ipsum amet consectetur</div>
+            <div class="feacher__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit quaerat excepturi sed aliquid, voluptas ex quam et ducimus animi. Dolorum ipsam tempora modi amet eum aliquam!</div>
+          </div>
+          <div class="feacher__item">
+            <img class="feacher__icon" src="img/240_F_301527353_rc9kt9ZXxCHOtC3VG8kJhyAa0kEgFjMx.jpg" alt="">
+            <div class="feacher__title">Lorem ipsum amet consectetur</div>
+            <div class="feacher__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nihil quaerat aliquid, itaque ex quam et ducimus animi. Dolorum ipsam tempora modi amet eum aliquam!</div>
+          </div>
+          <div class="feacher__item">
+            <img class="feacher__icon" src="img/pencil.jpg" alt="">
+            <div class="feacher__title">Lorem ipsum amet consectetur</div>
+            <div class="feacher__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nihil quaerat aliquid, itaque ex quam et ducimus animi. Dolorum ipsam tempora modi amet eum aliquam!</div>
+          </div>
+          <div class="feacher__item">
+            <img class="feacher__icon" src="img/pencil.jpg"alt="">
+            <div class="feacher__title">Lorem ipsum amet consectetur</div>
+            <div class="feacher__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nihil quaerat aliquid, itaque ex quam et ducimus animi. Dolorum ipsam tempora modi amet eum aliquam!</div>
+          </div>
+          <div class="feacher__item">
+            <img class="feacher__icon" src="img/240_F_301527353_rc9kt9ZXxCHOtC3VG8kJhyAa0kEgFjMx.jpg" alt="">
+            <div class="feacher__title">Lorem ipsum amet consectetur</div>
+            <div class="feacher__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nihil quaerat aliquid, itaque ex quam et ducimus animi. Dolorum ipsam tempora modi amet eum aliquam!</div>
+          </div>
+          <div class="feacher__item">
+            <img class="feacher__icon" src="img/лампочка.jpg" alt="">
+            <div class="feacher__title">Lorem ipsum amet consectetur</div>
+            <div class="feacher__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nihil quaerat aliquid, itaque ex quam et ducimus animi. Dolorum ipsam tempora modi amet eum aliquam!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+        <!-- 8 картинок деленные на 4 столбца -->
+      <div class="food__inner" id="Works">
+        <div class="food__item">
+          <img class="food__img" src="img/8food.jpg" alt="">
+          <div class="food__content">
+            <div class="food__tittle">STIP RETOCH</div>
+            <div class="food__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+          </div>
+        </div>
+        <div class="food__item">
+          <img class="food__img" src="img/7food.jpg" alt="">
+          <div class="food__content">
+            <div class="food__tittle">STIP RETOCH</div>
+            <div class="food__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+          </div>
+        </div>
+        <div class="food__item">
+          <img class="food__img" src="img/_99401569_7bb9f964-e0f1-4ae7-a984-805588bbec05.jpg" alt="">
+          <div class="food__content">
+            <div class="food__tittle">STIP RETOCH</div>
+            <div class="food__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+          </div>
+        </div>
+        <div class="food__item">
+          <img  class="food__img" src="img/2image.jpeg" alt="">
+          <div class="food__content">
+            <div class="food__tittle">STIP RETOCH</div>
+            <div class="food__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+          </div>
+        </div>
+        <div class="food__item">
+          <img  class="food__img" src="img/5foodjpg.jpg" alt="">
+          <div class="food__content">
+            <div class="food__tittle">STIP RETOCH</div>
+            <div class="food__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+          </div>
+        </div>
+        <div class="food__item">
+          <img  class="food__img" src="img/4food.jpg" alt="">
+          <div class="food__content">
+            <div class="food__tittle">STIP RETOCH</div>
+            <div class="food__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+          </div>
+        </div>
+        <div class="food__item">
+          <img  class="food__img" src="img/8food.jpg" alt="">
+          <div class="food__content">
+            <div class="food__tittle">STIP RETOCH</div>
+            <div class="food__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+          </div>
+        </div>
+        <div class="food__item">
+          <img  class="food__img" src="img/1imag.jpg" alt="">
+          <div class="food__content">
+            <div class="food__tittle">STIP RETOCH</div>
+            <div class="food__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+          </div>
+        </div>
+    </div>
+
+
+    <!-- Работники их описание, 4 штуки -->
+    <div class="name">
+      <div class="container" id="teams">
+        <div class="name__inner">
+          <div class="name__item">
+            <img class="name__image" src="img/джони.jpg" alt="">
+            <div class="name__content">
+              <div class="name__tittle">Artem Reed</div>
+              <div class="name__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>In, commodi deleniti. Dolore quos consequatur tempora eveniet debitis nisi qui eaque quia possimus dolores pariatur, quam amet delectus. Officiis, nisi? Adipisci.</div>
+              <div class="name__links">
+                <a  class='links__item' href="">
+                  <img  class="links__icon" src= "img/!facebook.png" height="24" alt="">
+                </a>
+                <a  class='links__item' href="">
+                  <img src="img/!telegram.png" height="24" alt="">
+                </a>
+                <a  class='links__item' href="">
+                  <img src="img/!twitter.png" height="24" alt="">
+                </a>
+              </div>
+            </div>  
+          </div>
+          <div class="name__item">
+            <img class="name__image" src="img/найтли.jpg" alt="">
+            <div class="name__content">
+              <div class="name__tittle">Liza Chizh</div>
+              <div class="name__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>In, commodi deleniti. Dolore quos consequatur tempora eveniet debitis nisi qui eaque quia possimus dolores pariatur, quam amet delectus. Officiis, nisi? Adipisci.</div>
+              <div class="name__links">
+                <a  class='links__item' href="">
+                  <img src= "img/!facebook.png" height="24" alt="">
+                </a>
+                <a  class='links__item' href="">
+                  <img src="img/!telegram.png" height="24" alt="">
+                </a>
+                <a  class='links__item' href="">
+                  <img src="img/!twitter.png" height="24" alt="">
+                </a>
+              </div>
+            </div>  
+          </div>
+          <div class="name__item">
+            <img class="name__image" src="img/square_320_5750e489462f11dda98e62dc79d6cd56.jpg" alt="">
+            <div class="name__content">
+              <div class="name__tittle">Elizveta Davidovich</div>
+              <div class="name__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>In, commodi deleniti. Dolore quos consequatur tempora eveniet debitis nisi qui eaque quia possimus dolores pariatur, quam amet delectus. Officiis, nisi? Adipisci.</div>
+              <div class="name__links">
+                <a  class='links__item' href="">
+                  <img src= "img/!facebook.png" height="24" alt="">
+                </a>
+                <a  class='links__item' href="">
+                  <img src="img/!telegram.png" height="24" alt="">
+                </a>
+                <a  class='links__item' href="">
+                  <img src="img/!twitter.png" height="24" alt="">
+                </a>
+              </div>
+            </div>  
+          </div>
+          <div class="name__item">
+            <img class="name__image" src="img/qqq6558fe52e222067354c033546730497c.jpg" alt="">
+            <div class="name__content">
+              <div class="name__tittle">Mark Rains</div>
+              <div class="name__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> In, commodi deleniti. Dolore quos consequatur tempora eveniet debitis nisi qui eaque quia possimus dolores pariatur, quam amet delectus. Officiis, nisi? Adipisci.</div>
+              <div class="name__links">
+                <a  class='links__item' href="">
+                  <img src= "img/!facebook.png" height="24" alt="">
+                </a>
+                <a  class='links__item' href="">
+                  <img src="img/!telegram.png" height="24" alt="">
+                </a>
+                <a  class='links__item' href="">
+                  <img src="img/!twitter.png" height="24" alt="">
+                </a>
+              </div>
+            </div>  
+          </div>
+      </div>
+      </div>
+    </div>
+
+
+
+    <!-- ОТзывы -->
+    <div class="reviews">
+      <div class="container" id="reviews">
+        <div  class="reviews__Slider" id="reviewsSlider">
+          <div>
+          <div class="reviews__inner">
+            <div class="reviews__photo">
+              <img class="Photo__reviews" src="img/отзыв.jpeg" alt="">
+            </div>
+            <div class="reviews__content">
+              <p class="reviews__text">
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti natus corporis earum culpa quos illo eligendi repudiandae excepturi ad saepe voluptatibus, accusamus, quasi numquam assumenda animi laboriosam sint perferendis. Recusandae...."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="reviews__inner">
+            <div class="reviews__photo">
+              <img class="Photo__reviews" src="img/отзыв.jpeg" alt="">
+            </div>
+            <div class="reviews__content">
+              <p class="reviews__text">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fkgklg,dl,cd;.f vlfrporjr ckg;l;l Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore veniam vel asperiores mollitia, incidunt in earum quae voluptate atque assumenda tempore placeat iusto repellendus maiores ipsum accusamus adipisci eligendi excepturi? omnis, a facere debitis dolore explicabo eveniet quia ea, beatae vel accusantium dolorum ducimus eum totam molestias dolorem at aliquam amet....."
+              </p>
+            </div>
+          </div>
+        </div>
+
+          </div>
+       </div>
+      </div>
+    </div>
+
+
+
+    <!-- Можно скачать файлы, ссылка -->
+    <div class="download">
+      <div class="container" id="Downoloads">
+        <div class="download__inner">
+          <div class="download__inter">Lorem, ipsum dolor sit amet consectetur adipisicing elit!</div>
+          <h3 class="download__text">Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+          <div class="download__botton">download here</div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- footer(подвал) -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__block">
+              <h3 class="footer__tittle">Location:</h3>
+              <adress class="adress">
+                <h4 class="footer__text">surganova 37/2, city Minsk</h4>
+              </adress>
+          </div>
+              
+            <div class="footer__block">
+              <h3 class="footer__tittle">Share with love</h3>
+              <div class="link__footer">
+                <a  class='footer__links' href="">
+                  <img src= "img/!facebook.png" height="22" alt="">
+                </a>
+                <a  class='footer__links' href="">
+                  <img src="img/!telegram.png" height="22" alt="">
+                </a>
+                <a  class='footer__links' href="">
+                  <img src="img/!twitter.png" height="22" alt="">
+                </a>
+              </div>
+            </div>
+
+
+           <div class="footer__block">
+              <h3 class="footer__tittle">Lorem ipsum</h3>
+              <h4 class="footer__text1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita temporibus voluptatum exercitationem, sit rem!</h4>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copy">
+        <div class="container">
+          <div class="copy__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Mollitia maiores quae 
+            magnam asperiores libero odio laudantium nobis corrupti.</div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+				
+    <script src="js/script.js"></script>
+  </body>
+</html>
